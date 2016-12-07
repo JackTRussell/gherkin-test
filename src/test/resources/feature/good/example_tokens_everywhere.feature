@@ -3,15 +3,9 @@ Feature: Example tokens everywhere
 
 @SC_109854
 Scenario Outline: the <one>
-Given the <two>:
-"""
-<three>
-"""
-Given the <four>:
-|<five>|
-
+Given <one> the <two>:<three><four>:
+And |<five>|
 
 Examples: 
 |one|two|three|four|five|
-|un|deux|trois|quatre|cinq|
-|uno|dos|tres|quatro|cinco|
+||||||
