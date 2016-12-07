@@ -1,11 +1,14 @@
-@ST_27137
-Feature: Example token used multiple times
+Feature: Example tokens everywhere
 
-@SC_109855
-Scenario Outline: Token used twice in a single step
-Given <what> <what>
-And hj;l'
+Scenario Outline: the <one>
+Given the <two>:
+"""
+<three>
+"""
+Given the <four>:
+| <five> |
 
-Examples: 
-|what|
-|usage|
+Examples:
+| one | two  | three | four   | five  |
+| un  | deux | trois | quatre | cinq  |
+| uno | dos  | tres  | quatro | cinco |
