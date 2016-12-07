@@ -48,7 +48,7 @@ Given the minimalism
 @SC_109851
 Scenario Outline: scenario outline with a description
 This is a scenario outline description
-Given the minimalism
+Given the minimalism <foo>
 
 Examples: examples with description
 This is an examples description
