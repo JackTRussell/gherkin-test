@@ -3,9 +3,9 @@ Feature: Example token used multiple times
 
 @SC_109855
 Scenario Outline: Token used twice in a single step
-Given <what> <what>
+Given <ghdjkl> <ghdjkl>
 And hj;l'
 
 Examples: 
-|what|
+|ghdjkl|
 |usage|
