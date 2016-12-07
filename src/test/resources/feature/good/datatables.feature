@@ -3,7 +3,7 @@ Feature: DataTables
 
 @SC_109843
 Scenario: minimalistic
-Given a simple data table <foo><bar>
+Given a simple data table
 |foo|bar|
 |boz|boo|
 
