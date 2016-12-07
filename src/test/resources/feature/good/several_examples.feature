@@ -1,14 +1,16 @@
-@ST_27153
 Feature: Tagged Examples
 
-@SC_109887
 Scenario Outline: minimalistic
-Given the <what>
+  Given the <what>
+  @foo
+  Examples:
+    | what |
+    | foo  |
 
-Examples: 
-|what|
-|foo|
+  @bar
+  Examples:
+    | what |
+    | bar  |
 
-
-@SC_109888 @zap
+@zap
 Scenario: ha ok
