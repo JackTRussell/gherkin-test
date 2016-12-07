@@ -1,11 +1,13 @@
-@ST_27136
 Feature: Example tokens everywhere
 
-@SC_109854
 Scenario Outline: the <one>
-Given <one> the <two>:<three><four>:<five>
-And example table
-
-Examples: 
-|one|two|three|four|five|
-||||||
+  Given the <two>:
+    """
+    <three>
+    """
+  Given the <four>:
+    | <five> |
+  Examples:
+    | one | two  | three | four   | five  |
+    | un  | deux | trois | quatre | cinq  |
+    | uno | dos  | tres  | quatro | cinco |
